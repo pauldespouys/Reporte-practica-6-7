@@ -1,0 +1,196 @@
+#include<stdio.h>
+
+/* este programa calcula si a es igual que b */
+
+int main ()
+{
+   unsigned int a,b;
+   a=3;
+   b=5;
+   if a (==0)
+   {
+      if (b==0)
+       {
+         printf ("a es igual que b")
+       }  
+        else
+       {
+         printf ("a es diferente que b");
+       }
+   {
+
+   if (a!=0)
+   {
+      if (b==0)
+     {
+         printf ("a es diferente que b");
+     }
+      else 
+     {
+      while (a!=0)&& (b!=0){
+       a= a-1;
+       b= b-1;
+ 
+       if (a==0)
+       {
+         if (b==0)
+        {
+         printf ("a es igual que b");
+        }
+        else
+        {
+         printf ("a es diferente que b");
+        }
+       }
+      if (a!=0)
+        if (b==0)
+        {
+         printf ("a es diferente que b");
+        }
+        else
+        {
+          continue;
+        }
+      }
+     }
+return 0;
+}
+
+
+
+
+
+
+
+
+
+#include<stdio.h>
+
+/* este programa calcula si a es mayor que b */
+
+int main ()
+{
+   unsigned int a,b;
+   a=3;
+   b=5;
+   if a (==0)
+   {
+      if (b==0)
+       {
+         printf ("a es igual que b")
+       }  
+        else
+       {
+         printf ("a es diferente que b");
+       }
+   {
+
+   if (a!=0)
+   {
+      if (b==0)
+     {
+         printf ("a es mayor que b");
+     }
+      else 
+     {
+      while (a!=0)&& (b!=0){
+       a= a-1;
+       b= b-1;
+ 
+       if (a==0)
+       {
+         if (b==0)
+        {
+         printf ("a es igual que b");
+        }
+        else
+        {
+         printf ("a es diferente que b");
+        }
+       }
+      if (a!=0)
+        if (b==0)
+        {
+         printf ("a es mayor que b");
+        }
+        else
+        {
+          continue;
+        }
+      }
+     }
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include<stdio.h>
+
+/* este programa calcula si b es mayor que a */
+
+int main ()
+{
+   unsigned int a,b;
+   a=3;
+   b=5;
+   if a (==0)
+   {
+      if (b==0)
+       {
+         printf ("a es igual que b")
+       }  
+        else
+       {
+         printf ("b es mayor que a");
+       }
+   {
+
+   if (a!=0)
+   {
+      if (b==0)
+     {
+         printf ("a es diferente que b");
+     }
+      else 
+     {
+      while (a!=0)&& (b!=0){
+       a= a-1;
+       b= b-1;
+ 
+       if (a==0)
+       {
+         if (b==0)
+        {
+         printf ("a es igual que b");
+        }
+        else
+        {
+         printf ("b es mayor que a");
+        }
+       }
+      if (a!=0)
+        if (b==0)
+        {
+         printf ("a es diferente que b");
+        }
+        else
+        {
+          continue;
+        }
+      }
+     }
+return 0;
+}

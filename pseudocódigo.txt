@@ -1,0 +1,127 @@
+Incio
+ a: ENTERO
+ b: ENTERO
+SI a=0 ENTONCES
+   SI b=0 ENTONCES
+     ESCRIBIR ("a es igual a b")
+   FIN SI
+   DE LO CONTRARIO
+     ESCRIBIR ("a es diferente de b")
+   FIN DE LO CONTRARIO
+FIN SI
+SI a <>0 ENTONCES
+   SI b=0 ENTONCES
+     ESCRIBIR ("a es diferente de b")
+   FIN SI 
+   DE LO CONTRARIO
+     MIENTRAS a<>0 y b<>0
+           a:= a-1
+           b:= b-1
+           SI a=0 ENTONCES
+             SI b=0 ENTONCES
+                ESCRIBIR  ("a es igual a b")
+             FIN SI
+             DE LO CONTRARIO
+               ESCRIBIR ("a es diferente de b")
+             FIN DE LO CONTRARIO
+           FIN SI
+           SI a<>0 ENTONCES
+              SI b =0 ENTONCES
+               ESCRIBIR ("a es diferente de b")
+              FIN SI
+              DE LO CONTRARIO
+                REGRESAR A MIENTRAS
+              FIN DE LO CONTRARIO
+           FIN SI
+      FIN MIENTRAS
+FIN SI 
+FIN
+
+
+
+
+
+
+Incio
+ a: ENTERO
+ b: ENTERO
+SI a=0 ENTONCES
+   SI b=0 ENTONCES
+     ESCRIBIR ("a es igual a b")
+   FIN SI
+   DE LO CONTRARIO
+     ESCRIBIR ("b es mayor que a")
+   FIN DE LO CONTRARIO
+FIN SI
+SI a <>0 ENTONCES
+   SI b=0 ENTONCES
+     ESCRIBIR ("a es mayor que b")
+   FIN SI 
+   DE LO CONTRARIO
+     MIENTRAS a<>0 y b<>0
+           a:= a-1
+           b:= b-1
+           SI a=0 ENTONCES
+             SI b=0 ENTONCES
+                ESCRIBIR  ("a es igual que b")
+             FIN SI
+             DE LO CONTRARIO
+               ESCRIBIR ("b es mayor que a")
+             FIN DE LO CONTRARIO
+           FIN SI
+           SI a<>0 ENTONCES
+              SI b =0 ENTONCES
+               ESCRIBIR ("a es mayor que b")
+              FIN SI
+              DE LO CONTRARIO
+                REGRESAR A MIENTRAS
+              FIN DE LO CONTRARIO
+           FIN SI
+      FIN MIENTRAS
+FIN SI 
+FIN
+
+
+
+
+
+
+
+Incio
+ a: ENTERO
+ b: ENTERO
+SI a=0 ENTONCES
+   SI b=0 ENTONCES
+     ESCRIBIR ("a es igual a b")
+   FIN SI
+   DE LO CONTRARIO
+     ESCRIBIR ("b es mayor que a")
+   FIN DE LO CONTRARIO
+FIN SI
+SI a<>0 ENTONCES
+   SI b=0 ENTONCES
+     ESCRIBIR ("a es igual a b")
+   FIN SI 
+   DE LO CONTRARIO
+     MIENTRAS a<>0 y b<>0
+           a:= a-1
+           b:= b-1
+           SI a=0 ENTONCES
+             SI b=0 ENTONCES
+                ESCRIBIR  ("b es mayor que a")
+             FIN SI
+             DE LO CONTRARIO
+               ESCRIBIR ("a es mayor que b")
+             FIN DE LO CONTRARIO
+           FIN SI
+           SI a<>0 ENTONCES
+              SI b =0 ENTONCES
+               ESCRIBIR ("a es mayor que b")
+              FIN SI
+              DE LO CONTRARIO
+                REGRESAR A MIENTRAS
+              FIN DE LO CONTRARIO
+           FIN SI
+      FIN MIENTRAS
+FIN SI 
+FIN
